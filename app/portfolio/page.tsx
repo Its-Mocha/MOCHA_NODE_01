@@ -50,7 +50,7 @@ export default function PortfolioPage() {
       />
       
       {/* 4. OVERLAY SCANLINE (Adds to the NASA vibe) */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/5 to-transparent h-1/2 w-full animate-scan opacity-20 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-linear-to-b from-transparent via-white/5 to-transparent h-1/2 w-full animate-scan opacity-20 pointer-events-none"></div>
     </div>
   </div>
           <div className="text-center md:text-left space-y-4">

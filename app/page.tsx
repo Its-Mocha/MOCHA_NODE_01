@@ -19,7 +19,7 @@ export default function LandingPage() {
       ></div>
 
       {/* 2. SCANLINE OVERLAY (Optional but adds to the vibe) */}
-      <div className="absolute inset-0 z-10 pointer-events-none bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_2px,3px_100%]"></div>
+      <div className="absolute inset-0 z-10 pointer-events-none bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-size-[100%_2px,3px_100%]"></div>
 
       {/* 3. CONTENT WRAPPER */}
       <div className="relative z-20 flex flex-col min-h-screen">
@@ -37,7 +37,7 @@ export default function LandingPage() {
           </div>
         </header>
 
-        <main className="flex-grow flex flex-col justify-center max-w-6xl mx-auto px-6 w-full">
+        <main className="grow flex flex-col justify-center max-w-6xl mx-auto px-6 w-full">
           
 {/* TITLE SECTION */}
 <div className="mb-16 border-l-2 border-red-600 pl-8">
@@ -115,7 +115,7 @@ export default function LandingPage() {
       ].map((item, i) => (
         <div key={i} className="relative border-l border-zinc-800 pl-6 group">
           {/* Subtle hover accent */}
-          <div className="absolute left-0 top-0 w-[1px] h-0 bg-red-600 group-hover:h-full transition-all duration-300"></div>
+          <div className="absolute left-0 top-0 w-px h-0 bg-red-600 group-hover:h-full transition-all duration-300"></div>
           
           <span className="block text-[10px] text-zinc-500 uppercase mb-2 tracking-widest font-bold">
             {item.label}

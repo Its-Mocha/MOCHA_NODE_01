@@ -3,6 +3,8 @@
 # Keys
 .env
 
+/public
+
 # dependencies
 /node_modules
 /.pnp
