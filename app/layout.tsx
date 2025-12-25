@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Joseph Ducharme | Professional Portfolio",
+  title: "Mochajoe's Control Center",
   
 };
 

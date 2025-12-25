@@ -50,8 +50,8 @@ export default function LandingPage() {
   <div className="mt-6 max-w-xl">
     <p className="text-zinc-400 text-sm md:text-base leading-relaxed font-sans tracking-wide">
       <span className="text-red-600 font-bold uppercase mr-2">[Briefing]</span> 
-      Welcome to the <span className="text-white">Mainframe</span>. This is my central landing page where you can monitor 
-      live <span className="text-white">Network Stats</span> from my Pi-hole, explore my <span className="text-white">Development Portfolio</span>, 
+      Welcome to the <span className="text-white">Mainframe</span>. This is my central landing page where you can  explore my <span className="text-white">Development Portfolio</span>, monitor 
+      live <span className="text-white">Network Stats</span> from my Pi-hole, 
       or interface with my <span className="text-white">AI Terminal</span>.
     </p>
   </div>

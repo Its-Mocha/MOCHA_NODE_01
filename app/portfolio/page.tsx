@@ -20,18 +20,20 @@ export default function PortfolioPage() {
           backgroundSize: '40px 40px' 
         }}
       ></div>
-
-      <div className="relative z-10 max-w-5xl mx-auto p-6 md:p-16 space-y-16">
-        
-        {/* NAV OVERLAY */}
-        <nav className="flex justify-between items-center border-b border-zinc-800 pb-6">
-          <Link href="/" className="text-[10px] text-zinc-500 hover:text-red-600 transition-colors uppercase tracking-[0.3em]">
-            &lt; Return_to_Mainframe
-          </Link>
+      
+       {/* NAV OVERLAY */}
+        <nav className="absolute top-0 w-full p-6 flex justify-between items-center z-20">
+        <Link href="/" className="text-[10px] text-zinc-500 hover:text-red-600 transition-colors uppercase tracking-[0.3em] border border-zinc-800 px-3 py-1 bg-black/50">
+          &lt; Return_to_Mainframe
+        </Link>
           <div className="text-[10px] text-zinc-600 uppercase tracking-widest">
             Profile_ID: <span className="text-zinc-300 underline">Mochajoe</span>
           </div>
         </nav>
+
+      <div className="relative z-10 max-w-5xl mx-auto p-6 md:p-16 space-y-16">
+        
+       
 
        {/* HEADER SECTION */}
 <header className="flex flex-col md:flex-row items-center gap-12">
