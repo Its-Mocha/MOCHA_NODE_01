@@ -23,12 +23,9 @@ export default function PortfolioPage() {
       
        {/* NAV OVERLAY */}
         <div className="absolute top-0 w-full p-6 flex justify-between items-center z-20">
-        <Link href="/" className="text-[10px] text-zinc-500 hover:text-zinc-300 transition-colors uppercase tracking-[0.3em] border border-red-600 px-3 py-1 bg-black/50 animate-pulse">
-          &lt; Return_to_Mainframe
+        <Link href="/" className="text-[10px] text-zinc-500 hover:text-zinc-300 transition-colors uppercase tracking-[0.3em] border border-red-600 px-3 py-1 bg-black/50">
+          &lt; Return to Mainframe
         </Link>
-          <div className="text-[10px] text-zinc-600 uppercase tracking-widest">
-            Profile_ID: <span className="text-zinc-300 underline">Mochajoe</span>
-          </div>
         </div>
 
 <div className="relative z-10 max-w-5xl mx-auto p-6 pt-24 md:pt-32 md:p-16 space-y-16">
@@ -76,7 +73,7 @@ export default function PortfolioPage() {
   {/* LEFT COLUMN: Mission Title + Social Actions */}
   <div className="md:col-span-1 space-y-8">
     <h2 className="text-red-600 font-bold uppercase tracking-widest text-sm sticky top-24">
-      Mission_Log
+      Mission Log
     </h2>
   </div>
 
@@ -84,7 +81,7 @@ export default function PortfolioPage() {
   {/* PROFESSIONAL DEPLOYMENT */}
   <div className="space-y-4">
     <div className="flex items-center gap-2 text-[10px] text-red-600 font-bold uppercase tracking-[0.2em]">
-      <div className="w-1 h-1 bg-red-600"></div> Professional_Deployment
+      <div className="w-1 h-1 bg-red-600"></div> Professional Deployment
     </div>
     <p>
       Serving as an <strong className="text-white uppercase tracking-tighter">IT Technician</strong> at <strong className="text-red-600">Ducommun AeroStructures</strong>. I specialize in <strong className="text-white">Identity Management</strong> and security infrastructure, driving CMMC compliance and hardening enterprise nodes. 
@@ -97,7 +94,7 @@ export default function PortfolioPage() {
   {/* HOME LAB & DEV OPERATIONS */}
   <div className="space-y-4">
     <div className="flex items-center gap-2 text-[10px] text-red-600 font-bold uppercase tracking-[0.2em]">
-      <div className="w-1 h-1 bg-red-600"></div> Lab_Ops_&_Dev
+      <div className="w-1 h-1 bg-red-600"></div> Lab Ops & Dev
     </div>
     <p>
       In my private sector, I maintain a high-availability <strong className="text-white">Proxmox Cluster</strong> utilizing <strong className="text-white">ZFS Mirroring</strong> and <strong className="text-white">pfSense</strong> for network edge security. This environment serves as the staging ground for my automated Python telemetry scripts and AI integrations.

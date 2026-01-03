@@ -31,8 +31,8 @@ export default function LandingPage() {
               <div className="w-2 h-2 bg-red-600 shadow-[0_0_10px_red] animate-pulse"></div>
               <span className="text-[15px] tracking-[0.4em] uppercase font-bold text-zinc-400">Mainframe</span>
             </div>
-            <div className="text-[15px] text-red-600 uppercase tracking-widest animate-pulse">
-              System_Online
+            <div className="text-[15px] text-green-600 uppercase tracking-widest">
+              System Online
             </div>
           </div>
         </header>
